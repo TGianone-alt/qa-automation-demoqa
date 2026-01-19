@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.accenture.qa.runners.RunCucumberTest
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 88.38 s -- in com.accenture.qa.runners.RunCucumberTest
