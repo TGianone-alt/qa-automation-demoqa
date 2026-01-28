@@ -34,7 +34,7 @@ public class PracticeFormSteps {
         assertTrue(page.modalEstaVisivel(),
                 "Modal de sucesso nao apareceu apos enviar o formulario.");
 
-        // fecha primeiro (como você pediu)
+        // fecha primeiro
         page.fecharModal();
 
         // valida que fechou e que voltou pro form

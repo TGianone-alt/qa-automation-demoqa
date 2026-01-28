@@ -79,7 +79,7 @@ public class WebTablesSteps {
         }
     }
 
-    // ------------------------- UPDATE (mantido) -------------------------
+    // ------------------------- UPDATE -------------------------
 
     @When("adiciono 1 registro aleatorio")
     public void adiciono_1_registro_aleatorio() {
@@ -119,7 +119,7 @@ public class WebTablesSteps {
         assertEquals(novoDept, row.department, "Department nao foi atualizado corretamente.");
     }
 
-    // ------------------------- DELETE (mantido) -------------------------
+    // ------------------------- DELETE -------------------------
 
     @And("deleto o registro criado")
     public void deleto_o_registro_criado() {

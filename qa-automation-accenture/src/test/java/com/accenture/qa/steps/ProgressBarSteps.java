@@ -24,12 +24,12 @@ public class ProgressBarSteps {
 
     @When("inicio a progress bar, paro antes de 25, valido e retomo ate 100")
     public void inicio_paro_valido_retomo_ate_100() {
-        page.startStop();// inicia
+        page.startStop(); // inicia
         page.aguardarAteMaiorQueZero(); // garante que começou
 
         valorAoParar = page.pararAntesDe(25);
 
-        page.startStop();               // retoma
+        page.startStop(); // retoma
         page.aguardarAte100();
 
         valorFinal = page.obterValorAtual();
